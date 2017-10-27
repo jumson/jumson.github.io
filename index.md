@@ -51,11 +51,11 @@ end
 
 ###### [](#header-6)Header 6
 
-| head1        | head two          | three |
+| Tutorials        | Projects          | Random |
 |:-------------|:------------------|:------|
-| ok | good swedish fish ![](https://guides.github.com/activities/hello-world/branching.png) | jfskjdfhsjkdhf  |
-| out of stock - lots od atat! | good and plenty   | nice  |
-| ok           | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
+| ![](https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true) | good swedish fish  | jfskjdfhsjkdhf  |
+| ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit1.gif?raw=true) | good and plenty   | nice  |
+| ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit2.gif?raw=true) | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
 | ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
