@@ -53,9 +53,9 @@ end
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
+| ok | good swedish fish | ![](https://guides.github.com/activities/hello-world/branching.png)  |
+| out of stock - lots od atat! | good and plenty   | nice  |
+| ok           | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
 | ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
