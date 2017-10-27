@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+  </head>
+  <body style="     margin-left: 54px;">
+    <table style="width: 700px; height: 53px;" border="2" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr align="center">
+          <td style="height: 39px;" colspan="3" rowspan="1"><strong>
+              <h2>Project Directory with summaries</h2>
+            </strong></td>
+        </tr>
+        <tr>
+          <td style="width: 212.683px; text-align: center; background-color: white;"><a
+              target="_blank" title="Assembling the tester" href="https://www.instructables.com/id/Circuit-Circus-in-Depth-Tech/"><img
+                style="width: 202px; height: 128px;" title="Assembling Transistor Tester"
+                alt="Assembling Transistor Tester" src="images/cirrcuit2.gif"></a><br>
+            This is a detailed guide for assembling a Transistor Tester.</td>
+          <td style="margin-left: -9px; width: 212.683px; text-align: center; background-color: white;"><a
+              target="_blank" title="Operating the tester" href="https://www.instructables.com/id/How-to-Operate-the-Transistor-Tester-With-AVR-Micr/"><img
+                style="width: 207px; height: 131px;" title="Operating the Tester"
+                alt="Operating the Tester" src="images/cirrcuit1.gif"></a><br>
+            This is an explanation of how to operate the Transistor Tester<br>
+          </td>
+          <td style="width: 212.683px; text-align: center; background-color: white;"><br>
+            <a target="_blank" title="Hacker Tracker" href="https://www.instructables.com/id/Hacker-Tracker-in-Depth/"><img
+                style="width: 169px; height: 149px;" title="Hacker Tracker" alt="Hacker Tracker"
+                src="images/HackerTrackerWater.gif"></a><br>
+            This explains how to hook up and use a GPS, SD card Module, and
+            3-Axis digital compass module with your Arduino<br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
