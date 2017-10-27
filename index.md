@@ -53,7 +53,7 @@ end
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
-| ok | good swedish fish | ![](https://guides.github.com/activities/hello-world/branching.png)  |
+| ok | good swedish fish ![](https://guides.github.com/activities/hello-world/branching.png) | jfskjdfhsjkdhf  |
 | out of stock - lots od atat! | good and plenty   | nice  |
 | ok           | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
 | ok           | good `zoute` drop | yumm  |
