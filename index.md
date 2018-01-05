@@ -2,7 +2,16 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome. Here I'll include general introductions to various projects and endeavors, and a link for looking into the details.
+
+### [](#header-3)HackerBoxes and Instructables
+
+I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links:
+(https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true)
+
+
+//Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 
 [Link to another page](another-page).
 
@@ -53,7 +62,7 @@ end
 
 | Tutorials        | Projects          | Random |
 |:-------------|:------------------|:------|
-| ![](https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true) | good swedish fish  | jfskjdfhsjkdhf  |
+| ![] | good swedish fish  | jfskjdfhsjkdhf  |
 | ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit1.gif?raw=true) | good and plenty   | nice  |
 | ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit2.gif?raw=true) | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
 | ok           | good `zoute` drop | yumm  |
