@@ -5,15 +5,15 @@ layout: default
 Welcome. Here I'll include general introductions to various projects and endeavors, and a link for looking into the details.
 <div id="topp"></div>
 tl;dr header menu: 
-* [Hacker Tracker Instructable](#hacker-tracker)
-* [Circuit Tester Instructables](#circuit-circus)
-* [SMD Soldering Instructable](#a-technique-for-soldering-smd-components)
-* [Tip Tinning Techniques Instructable](#tinning-tips)
-* [Sewage Pump Situation](#sewagea-no-fail-situation) - Monitoring, controlling, bypassing main switch, etc.
+* [Hacker Tracker Instructable](#hacker-tracker-top)
+* [Circuit Tester Instructables](#circuit-circus-top)
+* [SMD Soldering Instructable](#a-technique-for-soldering-smd-components-top)
+* [Tip Tinning Techniques Instructable](#tinning-tips-top)
+* [Sewage Pump Situation](#sewagea-no-fail-situation-top) - Monitoring, controlling, bypassing main switch, etc.
   * [The Piggyback Plug Piggyback hardware](#piggyback-plug)
   * [The eTape solid state pressure sensor](#etape-sensor)
   * [Using Blynk](#blynk-stuff)
-* [who is hacking me? Project (honey pot thing)](#who-is-hacking-me)
+* [who is hacking me? Project (honey pot thing)](#who-is-hacking-me-top)
 * Untraceable Device that Proxy through i2p (older project not on github yet)
 * TBD as I go back and forth in time
 
