@@ -39,7 +39,9 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
 
 ### [](#header-3)A Technique for Soldering SMD components
 As I was experimenting with small electronics, I realized I do not really have all the tools I need. I developed this little technique and some people seemed to appreciate it. 
+
 [How to Solder SMD / SMT Components With a Soldering Iron](http://www.instructables.com/id/How-to-Solder-SMD-SMT-Components-With-a-Soldering-/)
+
 <img src="https://cdn.instructables.com/F92/2GBM/J7UQSB73/F922GBMJ7UQSB73.MEDIUM.jpg" 
                width="300" 
                alt="SMD Components"  
@@ -47,6 +49,7 @@ As I was experimenting with small electronics, I realized I do not really have a
 
 ### [](#header-3)Tinning Tips
 I made this small tutorial to show a way I was using to tin tips of little twisted wires to help with future soldering. I used a different camera this tmie and the image quality was not as good.
+
 [Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
 
 <img src="https://cdn.instructables.com/FKM/0KYC/J98RGUEZ/FKM0KYCJ98RGUEZ.MEDIUM.jpg" 
@@ -58,11 +61,18 @@ I made this small tutorial to show a way I was using to tin tips of little twist
 ## [](#header-2)Problem Solving....Projects
 
 
-#### [](#header-4)Header 4
+### [](#header-3)Sewage...a "no fail" situation
+So my sewage goes into a little basin at the lowest point in the house, which is below the sewage line at the street. Then it gets pumped up to the sewage line when it reaches a certain level. The pump is controlled by a mechanical float switch that rises and falls with the sewage level. Sometiems it dow not work....and there is no way to know until it comes out and ruins things. Like, weekends. And floores. And my wife's sense of security.
+So I had to fix it. Traditionally, when I get down stairs and find the "situation" I unplug the pump from the "piggyback" switch/plug, and plug it directly into the socket, which turns on the pump.
+My idea was to make another piggyback plug/switch that could have an alternative sensor to detect when the first switch did not trigger on, and "bypass" it by switching on power directly to the pump until the level goes down.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+So I made a thing, that turned into a much bigger thing than I thought it would.
+
+*   There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code)
+*   Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.
+*   I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.
+*   To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video)
+*   Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. 
 
 
 ### There's a horizontal rule below this.
