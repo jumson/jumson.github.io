@@ -88,22 +88,11 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 |  Description   | Pictures    |
 | :--- | :---: |
 | There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | <img src="https://github.com/jumson/jumson.github.io/blob/master/images/powerPart.png?raw=true" width="250" alt="powerPart"/> |
-
-*   <h5 id="etape-sensor"></h5>Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.
-*   <h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.
-*   To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video)
-*   Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. 
-*   NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data)
-
-<img src="https://github.com/jumson/PumpWatchManager/blob/master/appShotLong.png?raw=true" 
-               width="400" 
-               alt="app"  
-        />
-        
-<img src="https://github.com/jumson/PumpWatchManager/blob/master/appShot1.png?raw=true" 
-               width="250" 
-               alt="app2"  
-        />
+|<h5 id="etape-sensor"></h5>Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.|*picture goes here* |
+|<h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.|*picture goes here*|
+|To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video) | *picture here* |
+|Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. | *probably no picture for this....* |
+|NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data) | <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShotLong.png?raw=true" width="200" alt="app"/> <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShot1.png?raw=true" width="250" alt="app2" /> |
 
 * * *
 ### [](#whoIsHacking)Who is Hacking me?
