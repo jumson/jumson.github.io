@@ -87,7 +87,7 @@ So I made a thing, that turned into a much bigger thing than I thought it would.
 
 * * *
 ### [](#header-3)Who is Hacking me?
-Sometime over the Christmas break, I was looking through my logs on a public facing server, where I usually interact through SSH on port 22 (not to self, use a different port (note to self, already changed it)).
+Sometime over the Christmas break, I was looking through my logs on a public facing server, where I usually interact through SSH on port 22 (note to self, use a different port (note to self, already changed it)).
 
 *   This is what I found -- tons of it, sometimes hundreds of attempts in an hour!
 *   ```
