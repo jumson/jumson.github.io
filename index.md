@@ -14,7 +14,8 @@ tl;dr header menu:
   * [The eTape solid state pressure sensor](#etape-sensor)
   * [Using Blynk](#blynk-stuff)
 * [who is hacking me? Project (honey pot thing)](#who-is-hacking-me)
-* 
+* Untraceable Device that Proxy through i2p (older project not on github yet)
+* TBD as I go back and forth in time
 
 ## [](#header-2)HackerBoxes and Instructables
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
@@ -61,10 +62,7 @@ I made this small tutorial to show a way I was using to tin tips of little twist
 
 [Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
 
-<img src="images/TIN.jpg" 
-               width="300" 
-               alt="tip tinning"  
-        />
+<img src="images/TIN.jpg" width="300" alt="tip tinning"/>
 
 * * *
 ## [](#header-2)Problem Solving....Projects
@@ -84,7 +82,7 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 
 |  Description   | Pictures    |
 | :--- | :---: |
-| There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | ![Power thing](images/powerPart.png) |
+| There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | <img src="images/powerPart.png" width="250" alt="power device"/>|
 |<h5 id="etape-sensor"></h5>Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.|*picture goes here* |
 |<h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.|*picture goes here*|
 |To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video) | *picture here* |
