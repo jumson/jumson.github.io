@@ -94,12 +94,14 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
     </tr>
     <tr>
       <td style="text-align: left">
-      <meta id="etape-sensor">Then there is the <a href="https://milonetech.com/">eTape sensor from Milone Technologies</a>. This is a solid state pressure sensor designed to be used in “chemical” environments.</td>
+      <div id="etape-sensor">Then there is the <a href="https://milonetech.com/">eTape sensor from Milone Technologies</a>. This is a solid state pressure sensor designed to be used in “chemical” environments.</div>
+      </td>
       <td style="text-align: center"><em>picture goes here</em></td>
     </tr>
     <tr>
       <td style="text-align: left">
-      <meta id="blynk-stuff">I was originally using <a href="http://www.blynk.cc/">Blynk</a> to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.</td>
+      <div id="blynk-stuff">I was originally using <a href="http://www.blynk.cc/">Blynk</a> to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.</div>
+      </td>
       <td style="text-align: center"><em>picture goes here</em></td>
     </tr>
     <tr>
