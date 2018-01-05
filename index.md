@@ -11,7 +11,7 @@ tl;dr header menu:
 * [Tip Tinning Techniques Instructable](#tinning-tips)
 * [Sewage Pump Situation](#sewagea-no-fail-situation) - Monitoring, controlling, bypassing main switch, etc.
   * [The Piggyback Plug Piggyback hardware](#piggyback-plug)
-  * 
+  * [Using Blynk](#blynk-stuff)
 * [who is hacking me? Project (honey pot thing)](#who-is-hacking-me)
 * 
 
@@ -89,7 +89,7 @@ There is the old surge protector that did not work anymore, I converted it into 
 <img src="https://github.com/jumson/jumson.github.io/blob/master/images/powerPart.png?raw=true" width="250" alt="powerPart"/>
 </td></tr></table>
 *   Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.
-*   I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.
+*   [blynk-stuff]I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.
 *   To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video)
 *   Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. 
 *   NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data)
