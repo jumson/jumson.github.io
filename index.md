@@ -14,7 +14,8 @@ tl;dr header menu:
   * [The eTape solid state pressure sensor](#etape-sensor)
   * [Using Blynk](#blynk-stuff)
 * [who is hacking me? Project (honey pot thing)](#who-is-hacking-me-top)
-* Untraceable Device that Proxy through i2p (older project not on github yet)
+* Untraceable Device that Proxy through i2p (TO-DO: add to github)
+* Face Detection using Raspbery Pi Zero W, Camera, and LCD. (TO-DO: add to github)
 * TBD as I go back and forth in time
 
 
