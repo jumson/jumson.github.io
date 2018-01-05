@@ -22,10 +22,7 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
 ### [](#header-3)Hacker Tracker
 [The HackerTracker](http://www.instructables.com/id/Hacker-Tracker-in-Depth/) is a device that melds together a GPS module, SD Card Module, an Arduino Nano and a 3-Axis Compass. 
 
-<img src="https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true" 
-               width="300" 
-               alt="hackertracker"  
-        />
+<img src="images/HackerTrackerWater.gif?raw=true" width="300" alt="hackertracker"/>
 
 
 ### [](#header-3)Circuit Circus
@@ -34,13 +31,13 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
 <table align="center" >
     <tr>
       <td>
-        <img src="https://cdn.instructables.com/F6A/LIUW/J7UQS6DE/F6ALIUWJ7UQS6DE.ANIMATED.MEDIUM.gif" 
+        <img src="images/CC-Ass.gif" 
                width="300" 
                alt="Assembling"  
         />
       </td>
       <td>
-        <img src="https://cdn.instructables.com/F8Y/4YEI/J7GGIZ27/F8Y4YEIJ7GGIZ27.ANIMATED.MEDIUM.gif" 
+        <img src="images/CC-Op.gif" 
                 width="300" 
                alt="Operating"  
         />
@@ -54,7 +51,7 @@ As I was experimenting with small electronics, I realized I do not really have a
 
 [How to Solder SMD / SMT Components With a Soldering Iron](http://www.instructables.com/id/How-to-Solder-SMD-SMT-Components-With-a-Soldering-/)
 
-<img src="https://cdn.instructables.com/F92/2GBM/J7UQSB73/F922GBMJ7UQSB73.MEDIUM.jpg" 
+<img src="images/SMD.jpg" 
                width="300" 
                alt="SMD Components"  
         />
@@ -64,7 +61,7 @@ I made this small tutorial to show a way I was using to tin tips of little twist
 
 [Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
 
-<img src="https://cdn.instructables.com/FKM/0KYC/J98RGUEZ/FKM0KYCJ98RGUEZ.MEDIUM.jpg" 
+<img src="images/TIN.jpg" 
                width="300" 
                alt="tip tinning"  
         />
@@ -92,7 +89,7 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 |<h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.|*picture goes here*|
 |To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video) | *picture here* |
 |Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. | *probably no picture for this....* |
-|NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data) | <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShotLong.png?raw=true" width="200" alt="app"/> <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShot1.png?raw=true" width="250" alt="app2" /> |
+|NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data) | <img src="images/appShotLong.png" width="200" alt="app"/> <img src="images/appShot1.png" width="250" alt="app2" /> |
 
 * * *
 ### [](#whoIsHacking)Who is Hacking me?
