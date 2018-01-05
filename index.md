@@ -84,7 +84,8 @@ My idea was to make another piggyback plug/switch that could have an alternative
 
 So I made the thing, that turned into a much bigger thing than I thought it would. The vairous components are described below, with links to parts of the repository.
 <h5 id="piggyback-plug"></h5>
-|      |       |
+
+|     |     |
 | :--- | :---: |
 | There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | <img src="https://github.com/jumson/jumson.github.io/blob/master/images/powerPart.png?raw=true" width="250" alt="powerPart"/> |
 
