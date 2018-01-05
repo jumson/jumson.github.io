@@ -66,11 +66,11 @@ So my sewage goes into a little basin at the lowest point in the house, which is
 So I had to fix it. Traditionally, when I get down stairs and find the "situation" I unplug the pump from the "piggyback" switch/plug, and plug it directly into the socket, which turns on the pump.
 My idea was to make another piggyback plug/switch that could have an alternative sensor to detect when the first switch did not trigger on, and "bypass" it by switching on power directly to the pump until the level goes down.
 
-So I made a thing, that turned into a much bigger thing than I thought it would.
+So I made a thing, that turned into a much bigger thing than I thought it would. The vairous components are described below, with links to parts of the repository.
 
 <table><tr><td width="50%">
 There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code)
-</td><tdwidth="250">
+</td><td width="250">
 <img src="https://github.com/jumson/jumson.github.io/blob/master/images/powerPart.png?raw=true" width="250" alt="powerPart"/>
 </td></tr></table>
 *   Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.
