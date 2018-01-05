@@ -8,9 +8,8 @@ Welcome. Here I'll include general introductions to various projects and endeavo
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
 ### [](#header-3)Hacker Tracker
 [The HackerTracker](http://www.instructables.com/id/Hacker-Tracker-in-Depth/) is a device that melds together a GPS module, SD Card Module, an Arduino Nano and a 3-Axis Compass. 
-<p align="center">
+
 ![](https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true)
-</p>
 
 ### [](#header-3)Circuit Circus
 [Assembling](https://www.instructables.com/id/Circuit-Circus-in-Depth-Tech/) and [Operating](https://www.instructables.com/id/How-to-Operate-the-Transistor-Tester-With-AVR-Micr/) the "Circuit Circus" Circuit and Component Tester. ![]()
