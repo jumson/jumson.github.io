@@ -110,7 +110,7 @@ There is the old surge protector that did not work anymore, I converted it into 
 Sometime over the Christmas break, I was looking through my logs on a public facing server, where I usually interact through SSH on port 22 (note to self, use a different port (note to self, already changed it)).
 
 *   This is what I found -- tons of it, sometimes hundreds of attempts in an hour!
-*   ```
+```
 Dec 24 06:53:39 i2p sshd[30040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser
 Dec 24 06:53:41 i2p sshd[30040]: Failed password for root from 92.252.229.23 port 36945 ssh2
 Dec 24 06:53:44 i2p sshd[30040]: Failed password for root from 92.252.229.23 port 36945 ssh2
@@ -157,6 +157,7 @@ Dec 24 07:17:01 i2p CRON[30073]: pam_unix(cron:session): session opened for user
 Dec 24 07:17:01 i2p CRON[30073]: pam_unix(cron:session): session closed for user root
 Dec 24 07:18:23 i2p sshd[30078]: Connection closed by 51.254.204.239 [preauth]
 ```
+
 *   SO I wondered who in the world (what in the world) were they trying to do? What passwords did they think were going to work? What would they do once they got in?
 *   I moved my port and replaced it with another server I wrote in NodeJS. It would accept the connection, pretend to authenticate (after logging the pertinent data like IP address, username/password, etc) and then log anything else the connecting device attempted to do. So that is a neat ongoing project, [the code is here](https://github.com/jumson/sshMON/tree/master/fakeServer). I also logged everythign in CSV and made sure I could check on it by simply sending a GET request with the right URL and It would spit ou a formatted HTML table with the data for me to peruse, or let me download the CSV to filter it in EXCEL.
 *   Future objectives with this include using an API to query if the IPs are already registered offenders, and then report them if not, or gather more info for my own analysis. I was planning to go through these folks: [https://www.abuseipdb.com/](https://www.abuseipdb.com/).
