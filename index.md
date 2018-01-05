@@ -59,7 +59,7 @@ I made this small tutorial to show a way I was using to tin tips of little twist
 
 [Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
 
-<img src="images/TIN.jpg" width="300" alt="tip tinning"/>
+<img src="images/TIN.jpg" style="width:300px" alt="tip tinning"/>
 
 * * *
 ## Problem Solving....Projects
@@ -110,7 +110,7 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
     </tr>
     <tr>
       <td style="text-align: left">NOW, I’m working on bypassing BLYNK altogether, mainly because I think I can. I’m using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I’ll find a way to “authenticate” and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data)</td>
-      <td style="text-align: center"><img src="images/appShotLong.png" style="width:300px" alt="app" /><br /> <img src="images/appShot1.png" style="width:200px" alt="app2" /></td>
+      <td style="text-align: center"><img src="images/appShotLong.png" style="width:300px; border: 1px solid black;" alt="app" /><br /> <img src="images/appShot1.png" style="width:200px; border: 1px solid black;" alt="app2" /></td>
     </tr>
 </table>
 
