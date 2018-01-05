@@ -77,14 +77,12 @@ So I made a thing, that turned into a much bigger thing than I thought it would.
 
 <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShotLong.png?raw=true" 
                width="400" 
-               border="3"
                alt="app"  
         />
         
-        <img src="https://github.com/jumson/PumpWatchManager/blob/master/appShot1.png?raw=true" 
+<img src="https://github.com/jumson/PumpWatchManager/blob/master/appShot1.png?raw=true" 
                width="250" 
-               border="3"
-               alt="app "  
+               alt="app2"  
         />
 
 * * *
