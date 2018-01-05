@@ -78,13 +78,19 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 <h5 id="piggyback-plug"></h5>
 
 <table>
+    <col style="width:60%">
+    <col style="width:40%">
     <tr>
       <th style="text-align: center">Project Part</th>
       <th style="text-align: center">Picture</th>
     </tr>
     <tr style="vertical-align: top">
-      <td style="text-align: left width: 60% vertical-align: top">There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I’ll need to get some pictures on here. <a href="https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code">The code programmed into the ESP8266 is found here</a></td>
-      <td style="text-align: center"><img src="images/powerPart.png" width="250" alt="power device" /></td>
+      <td style="text-align: left vertical-align: top">
+        There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I’ll need to get some pictures on here. <a href="https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code">The code programmed into the ESP8266 is found here</a>
+      </td>
+      <td style="text-align: center">
+        <img src="images/powerPart.png" width="250" alt="power device" />
+      </td>
     </tr>
     <tr>
       <td style="text-align: left">&lt;h5 id="etape-sensor"&gt;&lt;/h5&gt;Then there is the <a href="https://milonetech.com/">eTape sensor from Milone Technologies</a>. This is a solid state pressure sensor designed to be used in “chemical” environments.</td>
