@@ -18,16 +18,16 @@ tl;dr header menu:
 * TBD as I go back and forth in time
 
 
-## HackerBoxes and Instructables<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+## HackerBoxes and Instructables <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
 
-### Hacker Tracker<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### Hacker Tracker <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 [The HackerTracker](http://www.instructables.com/id/Hacker-Tracker-in-Depth/) is a device that melds together a GPS module, SD Card Module, an Arduino Nano and a 3-Axis Compass. 
 
 <img src="images/HackerTrackerWater.gif?raw=true" width="300" alt="hackertracker"/>
 
 
-### Circuit Circus<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### Circuit Circus <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 [Assembling](https://www.instructables.com/id/Circuit-Circus-in-Depth-Tech/) and [Operating](https://www.instructables.com/id/How-to-Operate-the-Transistor-Tester-With-AVR-Micr/) the "Circuit Circus" Circuit and Component Tester. 
 
 <table>
@@ -48,14 +48,14 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
  </table>
 
 
-### A Technique for Soldering SMD components<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### A Technique for Soldering SMD components <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 As I was experimenting with small electronics, I realized I do not really have all the tools I need. I developed this little technique and some people seemed to appreciate it. 
 
 [How to Solder SMD / SMT Components With a Soldering Iron](http://www.instructables.com/id/How-to-Solder-SMD-SMT-Components-With-a-Soldering-/)
 
 <img src="images/SMD.jpg" style="width:300px" alt="SMD Components"/>
 
-### Tinning Tips<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### Tinning Tips <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 I made this small tutorial to show a way I was using to tin tips of little twisted wires to help with future soldering. I used a different camera this tmie and the image quality was not as good.
 
 [Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
@@ -63,10 +63,10 @@ I made this small tutorial to show a way I was using to tin tips of little twist
 <img src="images/TIN.jpg" style="width:300px" alt="tip tinning"/>
 
 * * *
-## Problem Solving....Projects<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+## Problem Solving....Projects <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 
 
-### Sewage...a "no fail" situation<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### Sewage...a "no fail" situation <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 So my sewage goes into a little basin at the lowest point in the house, which is below the sewage line at the street. Then it gets pumped up to the sewage line when it reaches a certain level. The pump is controlled by a mechanical float switch that rises and falls with the sewage level. Sometiems it does not work....and there is no way to know until it comes out and ruins things. Like, weekends. And floores. And my wife's sense of security.
 
 So I had to fix it. Traditionally, when I get down stairs and find the "situation" I unplug the pump from the "piggyback" switch/plug, and plug it directly into the socket, which turns on the pump. Then sometimes the swtch works just fine. Sometiems I open it up and peer inside and do not see anything wrong with it, and it works just fine. 
@@ -121,7 +121,7 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 
 
 * * *
-### [](#whoIsHacking)Who is Hacking me?<span style="color:red;font-size:12px;">[(top)](#topp)</span>
+### [](#whoIsHacking)Who is Hacking me? <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 Sometime over the Christmas break, I was looking through my logs on a public facing server, where I usually interact through SSH on port 22 (note to self, use a different port (note to self, already changed it)).
 
 *   This is what I found -- tons of it, sometimes hundreds of attempts in an hour!
