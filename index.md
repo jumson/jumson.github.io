@@ -78,14 +78,10 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
 <h5 id="piggyback-plug"></h5>
 
 <table>
-  <thead>
-
     <tr>
       <th style="text-align: center">Project Part</th>
       <th style="text-align: center">Picture</th>
     </tr>
-  </thead>
-  <tbody>
     <tr style="vertical-align:top" width: 60%>
       <td style="text-align: left">There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I’ll need to get some pictures on here. <a href="https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code">The code programmed into the ESP8266 is found here</a></td>
       <td style="text-align: center"><img src="images/powerPart.png" width="250" alt="power device" /></td>
@@ -110,8 +106,9 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
       <td style="text-align: left">NOW, I’m working on bypassing BLYNK altogether, mainly because I think I can. I’m using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I’ll find a way to “authenticate” and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data)</td>
       <td style="text-align: center"><img src="images/appShotLong.png" width="300" alt="app" /><br /> <img src="images/appShot1.png" width="200" alt="app2" /></td>
     </tr>
-  </tbody>
 </table>
+
+***
 
 | Description                              |                 Pictures                 |
 | :--------------------------------------- | :--------------------------------------: |
