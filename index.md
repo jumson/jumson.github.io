@@ -4,7 +4,16 @@ layout: default
 
 Welcome. Here I'll include general introductions to various projects and endeavors, and a link for looking into the details.
 
-tl;dr header menu: [who is hacking me?](#whoIsHacking)
+tl;dr header menu: 
+* [Hacker Tracker Instructable](#hacker-tracker)
+* [Circuit Tester Instructables](#circuit-circus)
+* [SMD Soldering Instructable](#a-technique-for-soldering-smd-components)
+* [Tip Tinning Techniques Instructable](#tinning-tips)
+* [Sewage Pump Situation](#sewagea-no-fail-situation) - Monitoring, controlling, bypassing main switch, etc.
+  * [The Piggyback Plug Piggyback hardware](#piggyback-plug)
+  * 
+* [who is hacking me? Project (honey pot thing)](#who-is-hacking-me)
+* 
 
 ## [](#header-2)HackerBoxes and Instructables
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
@@ -74,7 +83,7 @@ My idea was to make another piggyback plug/switch that could have an alternative
 
 So I made the thing, that turned into a much bigger thing than I thought it would. The vairous components are described below, with links to parts of the repository.
 
-<table><tr><td valign="top" align="left">
+<table id="piggyback-plug"><tr><td valign="top" align="left">
 There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code)
 </td><td valign="center" align="center" width="250">
 <img src="https://github.com/jumson/jumson.github.io/blob/master/images/powerPart.png?raw=true" width="250" alt="powerPart"/>
