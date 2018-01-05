@@ -4,7 +4,7 @@ layout: default
 
 Welcome. Here I'll include general introductions to various projects and endeavors, and a link for looking into the details.
 
-### [](#header-2)HackerBoxes and Instructables
+## [](#header-2)HackerBoxes and Instructables
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
 
 ### [](#header-3)Hacker Tracker
@@ -36,41 +36,27 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
     </tr>
  </table>
 
-//Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+### [](#header-3)A Technique for Soldering SMD components
+As I was experimenting with small electronics, I realized I do not really have all the tools I need. I developed this little technique and some people seemed to appreciate it. 
+[How to Solder SMD / SMT Components With a Soldering Iron](http://www.instructables.com/id/How-to-Solder-SMD-SMT-Components-With-a-Soldering-/)
+<img src="https://cdn.instructables.com/F92/2GBM/J7UQSB73/F922GBMJ7UQSB73.MEDIUM.jpg" 
+               width="300" 
+               alt="SMD Components"  
+        />
 
-[Link to another page](another-page).
+### [](#header-3)Tinning Tips
+I made this small tutorial to show a way I was using to tin tips of little twisted wires to help with future soldering. I used a different camera this tmie and the image quality was not as good.
+[Easy Tip Tinning Technique](http://www.instructables.com/id/Easy-Tip-Tinning-Technique/)
 
-There should be whitespace between paragraphs.
+<img src="https://cdn.instructables.com/FKM/0KYC/J98RGUEZ/FKM0KYCJ98RGUEZ.MEDIUM.jpg" 
+               width="300" 
+               alt="tip tinning"  
+        />
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+* * *
+## [](#header-2)Problem Solving....Projects
 
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### [](#header-4)Header 4
 
@@ -78,20 +64,6 @@ end
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| Tutorials        | Projects          | Random |
-|:-------------|:------------------|:------|
-| ![] | good swedish fish  | jfskjdfhsjkdhf  |
-| ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit1.gif?raw=true) | good and plenty   | nice  |
-| ![](https://github.com/jumson/jumson.github.io/blob/master/images/cirrcuit2.gif?raw=true) | good `oreos`      | ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)   |
-| ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
