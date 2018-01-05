@@ -85,7 +85,7 @@ So I made the thing, that turned into a much bigger thing than I thought it woul
       <th style="text-align: center">Picture</th>
     </tr>
     <tr style="vertical-align: top">
-      <td style="text-align: left; vertical-align: top">
+      <td style="text-align: left; vertical-align: top; width:60%">
         There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I’ll need to get some pictures on here. <a href="https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code">The code programmed into the ESP8266 is found here</a>
       </td>
       <td style="text-align: center">
