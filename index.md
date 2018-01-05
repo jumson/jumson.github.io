@@ -9,17 +9,17 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
 
 ### [](#header-3)Hacker Tracker
 [The HackerTracker](http://www.instructables.com/id/Hacker-Tracker-in-Depth/) is a device that melds together a GPS module, SD Card Module, an Arduino Nano and a 3-Axis Compass. 
-<p align="center>
+
 <img src="https://github.com/jumson/jumson.github.io/blob/master/images/HackerTrackerWater.gif?raw=true" 
                width="300" 
                alt="hackertracker"  
         />
-</p>
+
 
 ### [](#header-3)Circuit Circus
 [Assembling](https://www.instructables.com/id/Circuit-Circus-in-Depth-Tech/) and [Operating](https://www.instructables.com/id/How-to-Operate-the-Transistor-Tester-With-AVR-Micr/) the "Circuit Circus" Circuit and Component Tester. 
-<p align="center>
-<table class="image" align="center" >
+
+<table align="center" >
     <tr>
       <td>
         <img src="https://cdn.instructables.com/F6A/LIUW/J7UQS6DE/F6ALIUWJ7UQS6DE.ANIMATED.MEDIUM.gif" 
@@ -35,7 +35,7 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
       </td>
     </tr>
  </table>
- </p>
+
 //Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 
