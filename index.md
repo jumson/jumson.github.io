@@ -3,7 +3,7 @@ layout: default
 ---
 
 Welcome. Here I'll include general introductions to various projects and endeavors, and a link for looking into the details.
-<div id="topp">
+<div id="topp"></div>
 tl;dr header menu: 
 * [Hacker Tracker Instructable](#hacker-tracker)
 * [Circuit Tester Instructables](#circuit-circus)
@@ -16,7 +16,7 @@ tl;dr header menu:
 * [who is hacking me? Project (honey pot thing)](#who-is-hacking-me)
 * Untraceable Device that Proxy through i2p (older project not on github yet)
 * TBD as I go back and forth in time
-</div>
+
 
 ## HackerBoxes and Instructables<span style="color:red;font-size:12px;">[(top)](#topp)</span>
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
