@@ -17,19 +17,19 @@ tl;dr header menu:
 * Untraceable Device that Proxy through i2p (older project not on github yet)
 * TBD as I go back and forth in time
 
-## [](#header-2)HackerBoxes and Instructables
+## HackerBoxes and Instructables
 I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I get time, and I found that I also really enjoyed making simple how-to tutorials to help myself and anyone else who is interested. I've been publishing them on [Instructables](https://www.instructables.com/member/jumson/) and here are some individual links.
 
-### [](#header-3)Hacker Tracker
+### Hacker Tracker
 [The HackerTracker](http://www.instructables.com/id/Hacker-Tracker-in-Depth/) is a device that melds together a GPS module, SD Card Module, an Arduino Nano and a 3-Axis Compass. 
 
 <img src="images/HackerTrackerWater.gif?raw=true" width="300" alt="hackertracker"/>
 
 
-### [](#header-3)Circuit Circus
+### Circuit Circus
 [Assembling](https://www.instructables.com/id/Circuit-Circus-in-Depth-Tech/) and [Operating](https://www.instructables.com/id/How-to-Operate-the-Transistor-Tester-With-AVR-Micr/) the "Circuit Circus" Circuit and Component Tester. 
 
-<table align="center" >
+<table>
     <tr>
       <td>
         <img src="images/CC-Ass.gif" 
@@ -47,7 +47,7 @@ I really enjoyed getting into the [hackerboxes](https://hackerboxes.com/) when I
  </table>
 
 
-### [](#header-3)A Technique for Soldering SMD components
+### A Technique for Soldering SMD components
 As I was experimenting with small electronics, I realized I do not really have all the tools I need. I developed this little technique and some people seemed to appreciate it. 
 
 [How to Solder SMD / SMT Components With a Soldering Iron](http://www.instructables.com/id/How-to-Solder-SMD-SMT-Components-With-a-Soldering-/)
@@ -77,14 +77,14 @@ My idea was to make another piggyback plug/switch that could have an alternative
 So I made the thing, that turned into a much bigger thing than I thought it would. The various components are described below, with links to parts of the repository.
 <h5 id="piggyback-plug"></h5>
 
-|  Description   | Pictures    |
-| :--- | :---: |
-| There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | <img src="images/powerPart.png" width="250" alt="power device"/>|
-|<h5 id="etape-sensor"></h5>Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments.|*picture goes here* |
-|<h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything.|*picture goes here*|
-|To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video) | *picture here* |
-|Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. | *probably no picture for this....* |
-|NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data) | <img src="images/appShotLong.png" width="300" alt="app"/><br> <img src="images/appShot1.png" width="200" alt="app2" /> |
+| Description                              |                 Pictures                 |
+| :--------------------------------------- | :--------------------------------------: |
+| There is the old surge protector that did not work anymore, I converted it into the power switching / logic box. This part controls the power and holds the little ESP8266, reading the other sensor, ad which decides when to close the Solid State Relay. It will also/eventually detect when current is flowing through the main switch for later analysis/learning. I'll need to get some pictures on here. [The code programmed into the ESP8266 is found here](https://github.com/jumson/pumpWatcher/tree/master/ESP8266_Code) | <img src="images/powerPart.png" width="250" alt="power device"/> |
+| <h5 id="etape-sensor"></h5>Then there is the [eTape sensor from Milone Technologies](https://milonetech.com/). This is a solid state pressure sensor designed to be used in "chemical" environments. |           *picture goes here*            |
+| <h5 id="blynk-stuff"></h5>I was originally using [Blynk](http://www.blynk.cc/) to get the raw data, do some calculation and convert it to inches, and track the water levels with graphs. I made my own server so that i could try out all the bells and whistles without paying anything. |           *picture goes here*            |
+| To test it out as a proof of concept, I got a small little pond pump, and with the help of the [NPS Makers Club](http://www.npsfoundation.org/makers-club) and the [NPS RoboDojo's](https://my.nps.edu/web/robodojo) Laser Cutter, I made a contraption to perpetually pump / refill so I could fine tune and look for points of failure. (pictures....sometime. And video) |              *picture here*              |
+| Then I thought, why can't I just make my own server and let the device (now dubbed, the PumpWatcher(c)) send GET requests with encoded/formatted information, where I could make logs? [So I did that](https://github.com/jumson/pumpWatcher/tree/master/Server_Code), making a server that recieves that data, saves the data into a CSV file, and converts/streams it to an HTML table and sending it as a webpage for me to look at. |    *probably no picture for this....*    |
+| NOW, I'm working on bypassing BLYNK altogether, mainly because I think I can. I'm using Unity to create an app that interfaces with my pumpWatcher device just the way I want. The current prototype is able to send and recieve HTML to / from my server. Next, I'll find a way to "authenticate" and then control the pump (turning it on / off / setting the pump on/off trigger s, displaying the data) | <img src="images/appShotLong.png" width="300" alt="app"/><br> <img src="images/appShot1.png" width="200" alt="app2" /> |
 
 * * *
 ### [](#whoIsHacking)Who is Hacking me?
