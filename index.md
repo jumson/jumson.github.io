@@ -14,6 +14,7 @@ tl;dr header menu:
   * [The eTape solid state pressure sensor](#etape-sensor)
   * [Using Blynk](#blynk-stuff)
 * [who is hacking me? Project (honey pot thing)](#who-is-hacking-me-top)
+* [A fast way to learn -- grabbing the videos](#mediaDownloader)
 * Untraceable Device that Proxy through i2p (TO-DO: add to github)
 * Face Detection using Raspbery Pi Zero W, Camera, and LCD. (TO-DO: add to github)
 * TBD as I go back and forth in time
@@ -178,4 +179,8 @@ Dec 24 07:18:23 i2p sshd[30078]: Connection closed by 51.254.204.239 [preauth]
 *   I moved my port and replaced it with another server I wrote in NodeJS. It would accept the connection, pretend to authenticate (after logging the pertinent data like IP address, username/password, etc) and then log anything else the connecting device attempted to do. So that is a neat ongoing project, [the code is here](https://github.com/jumson/sshMON/tree/master/fakeServer). I also logged everythign in CSV and made sure I could check on it by simply sending a GET request with the right URL and It would spit ou a formatted HTML table with the data for me to peruse, or let me download the CSV to filter it in EXCEL.
 *   Future objectives with this include using an API to query if the IPs are already registered offenders, and then report them if not, or gather more info for my own analysis. I was planning to go through these folks: [https://www.abuseipdb.com/](https://www.abuseipdb.com/).
 
-
+* * *
+### [](#mediaDownloader)A faster way to learn <span style="color:red;font-size:12px;">[(top)](#topp)</span>
+I wanted to learn about some machine learning at an eLearning site I have access to. The thing was dry enough, but also slow. Unfortunealty, the sire provides no way to speed up the player, and no way to download the file to use in my own player.
+This project fixes that. It requires watching the site through Chrome's Developer mode and saving activity as a HAR file. 
+Then the scripts do the rest. [See the repository and instructions here](https://github.com/jumson/mediaDownloader)
