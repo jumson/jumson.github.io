@@ -182,6 +182,6 @@ Dec 24 07:18:23 i2p sshd[30078]: Connection closed by 51.254.204.239 [preauth]
 * * *
 ### [](#mediaDownloader)A faster way to learn <span style="color:red;font-size:12px;">[(top)](#topp)</span>
 <h5 id="mediaDownloader"></h5>
-I wanted to learn about some machine learning at an eLearning site I have access to. The thing was dry enough, but also slow. Unfortunealty, the sire provides no way to speed up the player, and no way to download the file to use in my own player.
+I wanted to learn about some machine learning at an eLearning site I have access to. The thing was dry enough, but also slow. Unfortunealty, the site provides no way to speed up the player, and no way to download the file to use in my own player.
 This project fixes that. It requires watching the site through Chrome's Developer mode and saving activity as a HAR file. 
 Then the scripts do the rest. [See the repository and instructions here](https://github.com/jumson/mediaDownloader)
